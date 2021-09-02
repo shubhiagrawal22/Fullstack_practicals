@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#header
+{
+    background-color: gray;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#banner
+{
+    height: 100vh;
+    background-color: skyblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1
+{
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+}
+#circle-container
+{
+    display: block;
+    content: "";
+    clear: both;
+}
+.circle
+{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    float: left;
+    margin-left: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+#sec2-container
+{
+    width: 100%;
+    display: block;
+
+}
+#left
+{
+    width: 50%;
+    height: 550px;
+    background-color: gray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#right
+{
+    width: 48%;
+    height: 550px;
+    float: right;
+}
+.article
+{
+    height: 31%;
+    margin-bottom: 20px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+#footer
+{
+    background-color: plum;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sec3-container
+{
+    width: 100%;
+    margin: 15px auto;
+    margin-bottom: 20px;
+    
+}
+#sec3-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.square
+{
+    width: 20%;
+    height: 300px;
+    background-color: orangered;
+    float: left;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    margin-left: 50px;
+}
