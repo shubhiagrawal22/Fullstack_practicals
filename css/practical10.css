@@ -145,8 +145,24 @@ a i
     color: cornsilk;
     float: left;
 }
-@media (max-width)
+@media (max-width:600px)
 {
-
+    .header
+    {
+        width: 100%;
+        height: 70px;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+    }
+    .header img
+    {
+        height: 70px;
+        width: 70px;
+        margin-right: 5px;
+    }
+    
 }
     
