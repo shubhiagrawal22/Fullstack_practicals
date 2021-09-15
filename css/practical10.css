@@ -1,0 +1,152 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.header
+{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+.header img
+{
+    height: 70px;
+    width: 70px;
+    margin-right: 5px;
+}
+.header h2
+{
+    text-align: center;
+    line-height: 70px;
+    color: cornsilk;
+}
+.side-bar
+{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(73, 71, 71);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    margin-top: 70px;
+    transition: 1s;
+}
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    color: cornsilk;
+    border-bottom: 2px solid goldenrod;
+}
+ul li a
+{
+    display: block;
+    color: cornsilk;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+}
+ul li a:hover
+{
+    background-color: lightgray;
+    color: black;
+}
+ul li a:hover i
+{
+    background-color: lightgray;
+    color: black;
+}
+a i
+{
+    font-size: 20px;
+    color: cornsilk;
+    margin-right: 20px;
+}
+.show-button, .hide-button
+{
+    position: fixed;
+    font-size: 30px;
+    color: cornsilk;
+    transition: 1s;
+    top: 20px;
+    left: 20px;
+}
+.hide-button
+{
+    opacity: 0;
+}
+#check
+{
+    position: absolute;
+    visibility: hidden;
+    z-index: -100;
+}
+#check:checked~.side-bar
+{
+    left: 0;
+}
+#check:checked~.side-bar
+{
+    opacity: 100;
+}
+#check:checked~.hide-bar
+{
+    opacity: 100;
+}
+#check:checked~.content
+{
+    width: 80%;
+}
+.content
+{
+    float: right;
+    width: 100%;
+    transition: 0.7s;
+    padding: 20px;
+    margin-top: 80px;
+}
+.content img
+{
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+}
+.content p
+{
+    text-align: justify;
+    padding: 20px;
+}
+.social
+{
+    margin-top: 200px;
+    display: flex;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    justify-content: space-evenly;
+}
+.social i
+{
+    padding: 10px 0px;
+    font-size: 30px;
+    color: cornsilk;
+    float: left;
+}
+@media (max-width)
+{
+
+}
+    
