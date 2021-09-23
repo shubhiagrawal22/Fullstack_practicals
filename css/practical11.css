@@ -48,6 +48,11 @@ table tbody td
     padding: 5px;
     border-bottom: 1px solid lightgray;
 }
+table tbody tr:hover
+{
+    background-color: rgb(240, 238, 238);
+    transition: 0.5s;
+}
 .fa-pencil:hover
 {
     color: green;
