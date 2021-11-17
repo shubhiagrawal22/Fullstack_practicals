@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>Fullstack_Practical</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(241, 239, 239);
+        }
+        header 
+        {
+            width: 100%;
+            height: 80px;
+            background-color: white;
+            display: flex;
+            box-shadow: 0 3px 5px grey;
+
+        }
+        header h1
+        {
+            text-align: left;
+            padding: 20px;
+            font-family: 'Roboto Slab', serif;
+            font-weight: 100;
+            color: navy;
+            margin-left: 40px;
+            margin-right: 100px;
+        }
+        .menu
+        {
+            list-style: none;
+            display: inline-block;
+            margin-left: 60px;
+        }
+        .menu li
+        {
+            line-height: 70px;
+            display: inline-block;
+        }
+        .menu li a
+        {
+            display: block;
+            text-decoration: none;
+            color: navy;
+            font-size: 20px;
+            /* text-transform: uppercase; */
+            padding: 0px 20px;
+        }
+        #button
+        {
+            background-color: rgb(32, 108, 250);
+            color: white;
+            border-radius: 8px;
+            /* height: 40px; */
+             padding:  1px;
+             /* margin-top: 10px; */
+             
+            
+        }
+        #button a
+        {
+            color: white;
+        }
+        .main
+        {
+            display: flex;
+            justify-content: center;
+        }
+        main h1
+        {
+            text-align: center;
+            color: navy;
+            font-size: 40px;
+            padding: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        main p
+        {
+            text-align: center;
+            color: gray;
+            font-family: 'Roboto Slab', serif;
+            font-style: 18px;
+            padding: 10px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .box
+        {
+            background-color: white;
+            height: 60px;
+            width: 60%;
+            display: flex;
+            justify-content: left; 
+            /* padding: 10px; */
+            margin-top: 20px;
+            margin-left: 300px;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .box p
+        {
+            color: black;
+            font-size: 14px;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+        }
+        .box p .fa
+        {
+            color: navy;
+            margin-right: 10px;
+        }
+        .box2
+        {
+            background-color: white;
+            /* height: 60px; */
+            width: 60%;
+            /* display: flex; */
+            justify-content: left; 
+            /* padding: 10px; */
+            margin-top: 20px;
+            margin-left: 300px;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .box2 p
+        {
+            color: black;
+            font-size: 14px;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+            line-height: 20px;
+        }
+        .box2 p .fa
+        {
+            color: navy;
+            /* padding: 10px; */
+            margin-right: 10px;
+        }
+        .fa-arrow-up
+        {
+            color: white;
+            background-color: rgb(32, 108, 250);
+            padding: 10px;
+            float: right;
+            /* margin: 20px; */
+            font-size: 20px;
+            border-radius: 6px;
+            margin-left: 200px;
+            /* margin-top: 10px; */
+
+            
+        }
+        .box3
+        {
+            display: flex;
+            align-items: center;
+            height: 60px;
+            margin-top: 20px;
+        }
+        #span
+        {
+            margin-left: 250px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>OnePage</h1>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Pricing </a></li>
+                <li><a href="#">Dropdown <i class="fas fa-chevron-square-down"></i></a></li>
+                <li><a href="#">Contact</a></li>
+                <li id="button"><a href="#">Get Started</a></li>
+            </ul>
+        </header>
+        <main>
+            <h1>FREQUENTLY ASKED QUESTIONS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda deleniti ad atque cum neque porro nobis repellendus distinctio iusto suscipit autem, minus optio dolores recusandae.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente quos molestiae qui beatae minus dignissimos expedita!
+            </p>
+            <div class="box">
+                <p><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quam ?
+                    <span id="span"><i class="fa-chevron-down"></i></span>
+                </p>
+                
+            </div>
+            <div class="box2">
+                <p><i class="fa fa-question-circle"></i><span style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quam ?</span> 
+                <span id="span"><i class="fa-chevron-down"></i></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus in est voluptatibus voluptatum enim 
+                    quas, non, molestias quisquam architecto odit, amet nostrum nobis perferendis sequi corrupti eos. Et 
+                    necessitatibus quia cumque mollitia dolor adipisci, perspiciatis, ipsam cum accusantium asperiores sunt 
+                    dolorum nemo, 
+                    </p>
+                </p>
+
+            </div>
+            <div class="box">
+                <p><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet consectetur adipisicing ?
+                <span id="span" style="margin-left: 350px;"><i class="fa-chevron-down"></i></span>
+                </p>
+
+            </div>
+            <div class="box3">
+            <div class="box">
+                <p><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet consectetur ?
+                <span id="span" style="margin-left: 400px;"><i class="fa-chevron-down"></i></span>
+                </p>
+
+            </div>
+            <i class="fa fa-arrow-up"></i>
+        </div>
+        </main>
+    </div>
+</body>
+</html>
