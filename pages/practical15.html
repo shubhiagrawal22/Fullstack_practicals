@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/practical15.css">
-    <script src="../js/practical15.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    
     <title>Practical-15</title>
 </head>
 <body>
@@ -15,22 +16,36 @@
             <div class="block">
             <label for="name">Username</label><br>
             <input type="text" name="name" id="name" placeholder="Enter Name" required>
+            <i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
         </div>
         <div class="block">
             <label for="email">Email</label><br>
             <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            <i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
         </div>
         <div class="block">
-            <label for="pswd">Password</label><br>
-            <input type="password" name="pswd" id="pswd" placeholder="Enter password" required>
+            <label for="password">Password</label><br>
+            <input type="password" name="pswd" id="password" placeholder="Enter password" required>
+            <i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
         </div>
         <div class="block">
-            <label for="pswdA">Password Again</label><br>
-            <input type="password" name="pswdA" id="pswdA" placeholder="Enter password Again" required>
+            <label for="password2">Password Again</label><br>
+            <input type="password" name="pswdA" id="password2" placeholder="Enter password Again" required>
+            <i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
         </div>
-        <br>
-            <input type="submit" name="submit" id="submit" required>
+        <br> 
+           <button>Submit</button>
         </form>
     </div>
+    <script src="../js/practical15.js"></script>
+   
 </body>
 </html>
